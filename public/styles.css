@@ -25,16 +25,20 @@
   --tw-content: '';
 }
 
+.fontsans{
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.main-sec-bg-img{
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjabU8JDH8TRWmjw4Pxx2DmWqw0H1PMbApjGFKB44mIsj3NpSBNWIP9qwb9HTgTGpY8X0EovODPebniiC_hsyQpWQ5QTg0lUfmFM93_L0XtfdqbNL0ael829bh3SMs9MIm5o7iXjFwVccyx3E4R5WxR1x-SFe0Rr084E8SL9bc1BXQamUxWWqCNMNw1yQ/s1600/bgimg.png");
+}
+
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
 */
-
-.fontsans{
-  font-family: 'Albert Sans', sans-serif;
-}
 
 html {
   line-height: 1.5;
@@ -1082,10 +1086,6 @@ input:checked + .toggle-bg {
   margin-right: -0.25rem;
 }
 
-.-ml-1 {
-  margin-left: -0.25rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -1170,10 +1170,6 @@ input:checked + .toggle-bg {
   height: 2rem;
 }
 
-.h-11 {
-  height: 2.75rem;
-}
-
 .h-3 {
   height: 0.75rem;
 }
@@ -1212,6 +1208,10 @@ input:checked + .toggle-bg {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-64 {
